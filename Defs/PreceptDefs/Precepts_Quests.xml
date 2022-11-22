@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<IssueDef>
+		<defName>RewardMotivationMeme_Quests</defName>
+		<label>quests</label>
+		<iconPath>UI/Issues/RewardMotivationMeme_Quests</iconPath>
+	</IssueDef>
+	
+	<PreceptDef>
+		<defName>RewardMotivationMeme_QuestsMandatory</defName>
+		<issue>RewardMotivationMeme_Quests</issue>
+		<label>mandatory</label>
+		<description>Quests and their associated rewards are critical to our story.</description>
+		<impact>High</impact>
+		<displayOrderInIssue>0</displayOrderInIssue>
+		<selectionWeight>1</selectionWeight>
+		<associatedMemes>
+			<li>RewardMotivationMeme_RewardMotivation</li>
+		</associatedMemes>
+		<comps>
+			<li Class="PreceptComp_SituationalThought">
+				<thought>RewardMotivationMeme_QuestCompleted</thought>
+			</li>
+			<li Class="PreceptComp_SituationalThought">
+				<thought>RewardMotivationMeme_QuestFailed</thought>
+			</li>
+		</comps>
+	</PreceptDef>
+	
+	<ThoughtDef>
+		<defName>RewardMotivationMeme_QuestCompleted</defName>
+		<durationDays>10</durationDays>
+		<stackLimit>3</stackLimit>
+		<stages>
+			<li>
+				<label>quest completed</label>
+				<description>We completed a quest and reaped the rewards.</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>RewardMotivationMeme_QuestFailed</defName>
+		<durationDays>10</durationDays>
+		<stackLimit>3</stackLimit>
+		<stages>
+			<li>
+				<label>quest failed</label>
+				<description>We failed a quest and missed out on the rewards.</description>
+				<baseMoodEffect>-30</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>
