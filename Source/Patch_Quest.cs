@@ -52,6 +52,10 @@ namespace RewardMotivationMeme
             {
                 return;
             }
+            if (__instance.description != null && __instance.description.ToString().Contains("sanguophage master"))
+            {
+                return;
+            }
 
             // Create the thought based on the quest outcome
             ThoughtDef thoughtDef;
