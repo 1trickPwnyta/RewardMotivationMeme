@@ -18,5 +18,24 @@
     </li>
   </modDependencies>
   <packageId>rewardmotivationmeme.1trickpwnyta</packageId>
-  <description>Adds an Ideology meme called Reward Motivation that rewards believers for completing quests and makes them unhappy when they fail or ignore quests.</description>
+  <description>
+Adds an Ideology meme called Reward Motivation that rewards believers for completing quests and makes them unhappy when they fail or ignore quests. This meme is meant to make "all quests" runs more thematic and interesting.
+
+Only quests with direct rewards and no diplomatic consequences are considered. As such, the following quests are not counted:
+- Transport pod crash (not really a quest, but the game treats it as one internally)
+- Wanderer joins (same as above)
+- The Deserter
+- Work sites discovered
+- Desperate refugees and betrayal offers
+- Long-range mineral scanner quests
+- Beggars
+- Crashed sanguophage and thralls
+
+Icon art by @mouse_draws on Twitter, who is open for commissions!
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+If you enjoy my work and want to support me and my family, I take donations at:
+https://ko-fi.com/1trickpwnyta
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  </description>
 </ModMetaData>
