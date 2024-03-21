@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<MemeDef>
+		<defName>RewardMotivationMeme_RewardMotivation</defName>
+		<label>reward motivation</label>
+		<description>We live for the rewards from quests.</description>
+		<iconPath>UI/Memes/RewardMotivationMeme_RewardMotivation</iconPath>
+		<impact>3</impact>
+		<generalRules>
+			<rulesStrings>
+				<li>memeAdjective->contracted</li>
+				<li>memeAdjective->hired</li>
+				<li>memeAdjective->adventuring</li>
+				<li>memeConcept->reward motivation</li>
+				<li>memeLeaderNoun->adventurer</li>
+				<li>memeMoralist->contractor</li>
+			</rulesStrings>
+		</generalRules>
+		<descriptionMaker>
+			<rules>
+				<rulesStrings>
+					<li>creation(tag=RewardMotivationMeme_RewardMotivation)        ->[deity0_name] hired a few contractors to carry out [deity0_possessive] will.</li>
+				</rulesStrings>
+			</rules>
+		</descriptionMaker>
+		<requireOne>
+			<li>
+				<li>RewardMotivationMeme_QuestsMandatory</li>
+			</li>
+		</requireOne>
+		<symbolPacks>
+			<li>
+				<ideoName>Adventure</ideoName>
+				<theme>adventuring</theme>
+				<adjective>adventuring</adjective>
+				<member>adventurer</member>
+			</li>
+			<li>
+				<ideoName>Contract</ideoName>
+				<theme>contracting</theme>
+				<adjective>contracted</adjective>
+				<member>contractor</member>
+			</li>
+		</symbolPacks>
+	</MemeDef>
+</Defs>
