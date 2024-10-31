@@ -72,7 +72,7 @@ namespace RewardMotivationMeme
             PreceptDef preceptDef = DefDatabase<PreceptDef>.GetNamed("RewardMotivationMeme_QuestsMandatory");
             foreach (Pawn pawn in PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_FreeColonists)
             {
-                if (pawn.ideo.Ideo.HasPrecept(preceptDef) && pawn.needs.mood != null)
+                if (pawn.Ideo != null && pawn.Ideo.HasPrecept(preceptDef) && pawn.needs.mood != null)
                 {
                     Precept precept = pawn.ideo.Ideo.GetPrecept(preceptDef);
                     pawn.needs.mood.thoughts.memories.TryGainMemory(thoughtDef, null, precept);

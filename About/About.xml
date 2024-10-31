@@ -32,9 +32,13 @@ Only quests with direct rewards and no diplomatic consequences are considered. A
 - Beggars
 - Crashed sanguophage and thralls
 
-Icon art by @mouse_draws on Twitter, who is open for commissions!
+Note: Quest types added in 1.5 all count toward quest fulfillment. Inconsequential quest types will be ignored in a future update.
 
 === Updates ===
+10/30/2024: Fix bug that prevents selling colony for archonexus quest when there are unobtained relics
 03/21/2024: Update to 1.5
+
+=== Credits ===
+Mod icon: twitter.com/mouse_draws
   </description>
 </ModMetaData>
