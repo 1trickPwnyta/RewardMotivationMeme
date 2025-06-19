@@ -5,6 +5,7 @@
   <supportedVersions>
     <li>1.4</li>
     <li>1.5</li>
+    <li>1.6</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -22,17 +23,9 @@
   <description>
 Adds an Ideology meme called Reward Motivation that rewards believers for completing quests and makes them unhappy when they fail or ignore quests. This meme is meant to make "all quests" runs more thematic and interesting.
 
-Only quests with direct rewards and no diplomatic consequences are considered. As such, the following quests are not counted:
-- Transport pod crash (not really a quest, but the game treats it as one internally)
-- Wanderer joins (same as above)
-- The Deserter
-- Work sites discovered
-- Desperate refugees and betrayal offers
-- Long-range mineral scanner quests
-- Beggars
-- Crashed sanguophage and thralls
-
-Note: Quest types added in 1.5 all count toward quest fulfillment. Inconsequential quest types will be ignored in a future update.
+Quests that do not require player input to accept are *not* considered.
+Quests that the player allows to expire without accepting *are* considered.
+Quests with negative diplomatic consequences are *not* considered.
 
 === Updates ===
 10/30/2024: Fix bug that prevents selling colony for archonexus quest when there are unobtained relics
